@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4577bc</color>
+    <color name="colorPrimaryDark">#4577bc</color>
+    <color name="Blue_Main">#1e2039</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#36c6fa</color>
+    <color name="white">#ffffff</color>
+    <color name="view_line">#fcd5d5d5</color>
+    <color name="black">#000000</color>
+    <color name="transpernet">#00000000</color>
+    <color name="silver">#919ca5</color>
+    <color name="lightsilver">#f7f7f7</color>
+    <color name="theme_color">#2196F3</color>
+    <color name="bg_color">#ebebeb</color>
+    <color name="color_text_dark">#676767</color>
+    <color name="darkgray">#555555</color>
+    <color name="calendar_day_text_color">@android:color/darker_gray</color>
+    <color name="calendar_red">#f35757</color>
+    <color name="calendar_number_text_color">#ff000000</color>
+    <color name="calendar_current_number_text_color">@android:color/holo_blue_dark</color>
+
+</resources>

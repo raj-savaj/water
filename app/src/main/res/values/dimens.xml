@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_left_margin">10dp</dimen>
+    <dimen name="dialog_img_margin_top">25dp</dimen>
+    <dimen name="activity_margin_register">5dp</dimen>
+    <dimen name="general_margin">20dp</dimen>
+</resources>

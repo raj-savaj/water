@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/general_left_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="Name"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="Address"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="Phone No"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="Date"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/general_left_margin"
+                    android:layout_marginRight="@dimen/general_left_margin"
+                    android:layout_marginBottom="@dimen/general_left_margin"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/activity_margin_register"
+                    android:paddingBottom="@dimen/activity_margin_register">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:hint="Cold Bottle Qty"
+                        android:textColor="@color/color_text_dark" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/general_left_margin"
+                    android:layout_marginRight="@dimen/general_left_margin"
+                    android:layout_marginBottom="@dimen/general_left_margin"
+                    android:layout_weight="1"
+                    android:paddingTop="@dimen/activity_margin_register"
+                    android:paddingBottom="@dimen/activity_margin_register">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:hint="Hot Bottle Qty"
+                        android:textColor="@color/color_text_dark" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/general_margin"
+                    app:srcCompat="@drawable/ic_edit_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/general_left_margin"
+                            android:layout_marginRight="@dimen/general_left_margin"
+                            android:layout_marginBottom="@dimen/general_left_margin"
+                            android:layout_weight="1"
+                            android:paddingTop="@dimen/activity_margin_register"
+                            android:paddingBottom="@dimen/activity_margin_register">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:hint="Return Cold Bottle Qty"
+                                android:textColor="@color/color_text_dark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/general_left_margin"
+                            android:layout_marginRight="@dimen/general_left_margin"
+                            android:layout_marginBottom="@dimen/general_left_margin"
+                            android:layout_weight="1"
+                            android:paddingTop="@dimen/activity_margin_register"
+                            android:paddingBottom="@dimen/activity_margin_register">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:hint="Return Hot Bottle Qty"
+                                android:textColor="@color/color_text_dark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/general_left_margin"
+                        android:layout_marginRight="@dimen/general_left_margin"
+                        android:paddingTop="@dimen/activity_margin_register"
+                        android:paddingBottom="@dimen/activity_margin_register">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:hint="Paid Amount"
+                            android:textColor="@color/color_text_dark" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/general_margin"
+                    app:srcCompat="@drawable/ic_edit_black_24dp" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="Total"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/general_left_margin"
+                android:layout_marginRight="@dimen/general_left_margin"
+                android:layout_marginBottom="@dimen/general_left_margin"
+                android:paddingTop="@dimen/activity_margin_register"
+                android:paddingBottom="@dimen/activity_margin_register">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="Status"
+                    android:textColor="@color/color_text_dark" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:gravity="center"
+            android:text="Delivered"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:gravity="center"
+            android:text="CANCEL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

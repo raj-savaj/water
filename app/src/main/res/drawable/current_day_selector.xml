@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/dialog_img_margin_top" android:width="@dimen/dialog_img_margin_top"/>
+            <stroke android:width="2dp" android:color="@color/calendar_red"/>
+        </shape>
+    </item>
+</selector>

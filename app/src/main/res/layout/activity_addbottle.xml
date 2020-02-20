@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context=".AddBottle">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/general_left_margin"
+        android:layout_marginTop="@dimen/dialog_img_margin_top"
+        android:layout_marginRight="@dimen/general_left_margin"
+        android:layout_marginBottom="@dimen/dialog_img_margin_top"
+        android:background="@color/white"
+        android:padding="@dimen/general_left_margin">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/text_bottle_qty"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_text_dark"
+            android:textColorHint="@color/darkgray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/general_left_margin"
+        android:layout_marginRight="@dimen/general_left_margin"
+        android:layout_marginBottom="@dimen/dialog_img_margin_top"
+        android:background="@color/white"
+        android:padding="@dimen/general_left_margin">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/text_hot_bottle_qty"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_text_dark"
+            android:textColorHint="@color/darkgray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/general_left_margin"
+        android:layout_marginRight="@dimen/general_left_margin"
+        android:layout_marginBottom="@dimen/dialog_img_margin_top"
+        android:background="@color/white"
+        android:padding="@dimen/general_left_margin">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/text_amount"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_text_dark"
+            android:textColorHint="@color/darkgray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/general_left_margin"
+        android:layout_marginRight="@dimen/general_left_margin">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/theme_color"
+            android:gravity="center"
+            android:text="@string/btn_add"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>
