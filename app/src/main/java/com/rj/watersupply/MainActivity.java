@@ -2,18 +2,12 @@ package com.rj.watersupply;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.WindowManager.LayoutParams;
 import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.DatePicker;
 import android.widget.ImageView;
-import android.widget.TimePicker;
-import android.widget.DatePicker.OnDateChangedListener;
-import java.util.Calendar;
-import android.os.Build.VERSION;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ImageView ivAbout;
     private ImageView ivAdd;
@@ -48,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, AddBottle.class));
                 return;
             case R.id.ivAdd :
-                startActivity(new Intent(this, AddData.class));
+                startActivity(new Intent(this, AddCustomer.class));
                 return;
             case R.id.ivCalendar:
                 startActivity(new Intent(this, MyScheduleCalendarActivity.class));

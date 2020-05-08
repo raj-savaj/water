@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Blue_Main"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -16,7 +16,7 @@
         android:padding="5dp"
         android:text="Remaining Qty : 200"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/theme_color" />
+        android:textColor="@color/Blue_Main" />
 
     <TextView
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         android:paddingBottom="5dp"
         android:text="Remaining Hot Qty : 400"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/theme_color" />
+        android:textColor="@color/Blue_Main" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_border"
                     android:padding="15dp"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     app:srcCompat="@drawable/water_bottle" />
 
                 <ImageView
@@ -65,7 +65,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_border"
                     android:padding="15dp"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     app:srcCompat="@drawable/ic_add_black_24dp" />
             </LinearLayout>
 
@@ -83,7 +83,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_border"
                     android:padding="25dp"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     app:srcCompat="@drawable/calendar" />
 
                 <ImageView
@@ -95,7 +95,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_border"
                     android:padding="25dp"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     app:srcCompat="@drawable/ic_income" />
             </LinearLayout>
 
@@ -109,7 +109,7 @@
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     android:layout_margin="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded_border"
@@ -124,7 +124,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="20dp"
                     android:layout_weight="1"
-                    android:tint="@color/blue"
+                    android:tint="@color/Blue_Main"
                     android:background="@drawable/rounded_border"
                     android:padding="25dp"
                     app:srcCompat="@drawable/ic_logout_black_24dp" />
