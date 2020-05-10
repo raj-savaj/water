@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="11dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:id="@+id/txtLogo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="L"
+           android:textSize="22sp"
+           android:background="@drawable/circle"
+           android:textColor="@android:color/white"
+           android:gravity="center"
+           />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="1dp"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/txtName"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Lara Dutta"
+               android:fontFamily="@font/nunitosansregular"
+               android:textSize="16dp"
+               android:textColor="#3a3a3a"
+               android:layout_marginBottom="4dp">
+           </TextView>
+           <TextView
+               android:id="@+id/txtMno"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="9824318964"
+               android:textSize="14dp"
+               android:fontFamily="@font/nunitosanslight"
+               android:textColor="#909BA3">
+           </TextView>
+       </LinearLayout>
+   </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11dp"
+        android:background="#32000000" />
+</LinearLayout>

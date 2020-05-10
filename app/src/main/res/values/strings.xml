@@ -4,15 +4,4 @@
     <string name="text_hot_bottle_qty">Hot Bottle Qty.</string>
     <string name="text_amount">Amount</string>
     <string name="btn_add">Add</string>
-    <string name="text_name">Name</string>
-    <string name="text_country_code">+91</string>
-    <string name="text_phone">Phone No.</string>
-    <string name="text_address">Address</string>
-    <string name="friday">FRI</string>
-    <string name="monday">MON</string>
-    <string name="saturday">SAT</string>
-    <string name="sunday">SUN</string>
-    <string name="thursday">THU</string>
-    <string name="tuesday">TUE</string>
-    <string name="wednesday">WED</string>
 </resources>

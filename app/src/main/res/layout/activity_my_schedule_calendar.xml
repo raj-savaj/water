@@ -20,13 +20,11 @@
             android:layout_weight="0.5" />
 
         <ImageView
-            android:id="@+id/material_calendar_previous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/icon_back" />
 
         <TextView
-            android:id="@+id/material_calendar_month_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -34,7 +32,6 @@
             android:textSize="20sp" />
 
         <ImageView
-            android:id="@+id/material_calendar_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/icon_arrow_right" />
@@ -46,7 +43,6 @@
     </LinearLayout>
 
     <GridView
-        android:id="@+id/material_calendar_gridView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -66,7 +62,6 @@
         android:background="@android:color/darker_gray" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rcRequestList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

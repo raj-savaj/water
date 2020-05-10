@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, AddBottle.class));
                 return;
             case R.id.ivAdd :
-                startActivity(new Intent(this, AddCustomer.class));
+                startActivity(new Intent(this, Customer.class));
                 return;
             case R.id.ivCalendar:
                 startActivity(new Intent(this, MyScheduleCalendarActivity.class));

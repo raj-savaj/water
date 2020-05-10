@@ -12,7 +12,6 @@
         android:gravity="center">
 
         <Spinner
-            android:id="@+id/spSelection"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/general_margin"
@@ -30,7 +29,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvOption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center" />
@@ -41,7 +39,6 @@
                 android:background="@color/bg_color" />
 
             <TextView
-                android:id="@+id/tvOptionEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center" />
@@ -49,17 +46,14 @@
     </LinearLayout>
 
     <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/chartYear"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/chartMonth"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/chartDay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

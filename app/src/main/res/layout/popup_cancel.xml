@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="19.9sp"
-            android:fontFamily="@font/sfpro_display_semibold"
+            android:fontFamily="font/sfpro_display_semibold"
             android:text="Login Failed!"
             android:textColor="#ff6f6f"
             android:textSize="19sp" />
