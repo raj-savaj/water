@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Customer"></activity>
+        <activity android:name=".BuyBottle"></activity>
+        <activity android:name=".Customer" />
         <activity
             android:name=".Splash"
             android:theme="@style/Noaction">
@@ -40,7 +41,7 @@
             android:label="Add Bottle" />
         <activity
             android:name=".Login"
-            android:theme="@style/Noaction"></activity>
+            android:theme="@style/Noaction" />
         <activity android:name=".MainActivity" />
     </application>
 

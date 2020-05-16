@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddBottle">
+    tools:context=".BuyBottle">
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,17 +23,16 @@
                 android:layout_margin="5dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                 android:layout_width="match_parent"
-                android:hint="Select Bottle"
+                android:hint="Search customer nane"
                 android:layout_height="wrap_content">
                 <AutoCompleteTextView
-                    android:id="@+id/filled_exposed_dropdown"
+                    android:id="@+id/serach_customer"
                     android:layout_width="match_parent"
-                    android:editable="false"
                     android:layout_height="wrap_content"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/txtQty"
+                android:id="@+id/edtMno"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,46 +41,49 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:enabled="true"
-                    android:hint="Quantity" />
+                    android:enabled="false"
+                    android:hint="Mobile Number" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/txtBasePrice"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:orientation="horizontal"
+                android:padding="4dp"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    app:shapeAppearance="@style/LeftCorner"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="+"
+                    android:textColor="@color/white"/>
+                <EditText
+                    android:layout_width="40dp"
+                    android:textAlignment="center"
+                    android:text="0"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_gray"/>
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:shapeAppearance="@style/RightCorner"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="—"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveBottle"
+                android:layout_margin="5dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:enabled="true"
-                    android:hint="Price" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/txtDescription"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:enabled="true"
-                    android:hint="Description" />
-            </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnSaveBottle"
-            android:layout_margin="5dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Save Bottle"
-            />
+                android:text="Save Bottle"
+                />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 </LinearLayout>

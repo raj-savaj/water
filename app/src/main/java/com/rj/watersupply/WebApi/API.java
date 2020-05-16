@@ -1,6 +1,8 @@
 package com.rj.watersupply.WebApi;
 
 import com.rj.watersupply.modal.CustomerData;
+import com.rj.watersupply.modal.Product;
+import com.rj.watersupply.modal.ProductDetail;
 import com.rj.watersupply.modal.ResponseLogin;
 
 import java.util.HashMap;
@@ -24,6 +26,18 @@ public interface API {
     @FormUrlEncoded
     Call<ResponseLogin> InsertCustomer(@FieldMap HashMap<String, String> hashFields);
 
+    @POST("addBottle.php")
+    @FormUrlEncoded
+    Call<ResponseLogin> addBottle(@FieldMap HashMap<String, String> hashFields);
+
     @GET("customers.php")
     Call<List<CustomerData>> getAllCustomer();
+
+    @GET("getProducts.php")
+    Call<List<Product>> getAllProduct();
+
+    @GET("getTodayProductDetail.php")
+    Call<List<ProductDetail>> getProductDetail();
+
+
 }
